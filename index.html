@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Ejercicio-ajedrez </title>
+    <link rel="stylesheet" type="text/css" href="chess.css">
+</head>
+
+<body>
+
+    <center><h1> Juego de Ajedrez Interactivo - Finales </h1></center>
+    <center>
+        <div class="contenedor">
+            <div class="titulo"><h2> Diagrama 5 </h2></div>
+            <div class="tablero">
+                <div class="fila nro1">
+                    <div class="columna a1 blanco"></div>
+                    <div class="columna b1"></div>
+                    <div class="columna c1 blanco"></div>
+                    <div class="columna d1"></div>
+                    <div class="columna e1 blanco"></div>
+                    <div class="columna f1"></div>
+                    <div class="columna g1 blanco"></div>
+                    <div class="columna h1"></div>
+                </div>
+                <div class="fila nro2">
+                    <div class="columna a2"></div>
+                    <div class="columna b2 blanco"></div>
+                    <div class="columna c2"></div>
+                    <div class="columna d2 blanco" id="columnaD2"> <p class="reyNegro" id="reyNegro">&#9818;</p> </div>
+                    <div class="columna e2" id="columnaE2"></div>
+                    <div class="columna f2 blanco"></div>
+                    <div class="columna g2"></div>
+                    <div class="columna h2 blanco"></div>
+                </div>
+                <div class="fila nro3">
+                    <div class="columna a3 blanco"></div>
+                    <div class="columna b3"></div>
+                    <div class="columna c3 blanco"></div>
+                    <div class="columna d3"></div>
+                    <div class="columna e3 blanco" id="columnaE3"></div>
+                    <div class="columna f3" id="columnaF3"></div>
+                    <div class="columna g3 blanco"></div>
+                    <div class="columna h3"></div>
+                </div>
+                <div class="fila nro4">
+                    <div class="columna a4"></div>
+                    <div class="columna b4 blanco"></div>
+                    <div class="columna c4"></div>
+                    <div class="columna d4 blanco" id="columnaD4"></div>
+                    <div class="columna e4" id="columnaE4"> <p class="peonNegro" id="peonNegro">&#9823;</p> </div>
+                    <div class="columna f4 blanco" id="columnaF4"></div>
+                    <div class="columna g4"></div>
+                    <div class="columna h4 blanco"></div>
+                </div>
+                <div class="fila nro5">
+                    <div class="columna a5 blanco"></div>
+                    <div class="columna b5"></div>
+                    <div class="columna c5 blanco" id="columnaC5"> <p class="reyBlanco" id="reyBlanco">&#9812;</p> </div>
+                    <div class="columna d5"></div>
+                    <div class="columna e5 blanco"> <p class="peonBlanco" id="peonBlanco">&#9817;</p> </div>
+                    <div class="columna f5"></div>
+                    <div class="columna g5 blanco"></div>
+                    <div class="columna h5"></div>
+                </div>
+                <div class="fila nro6">
+                    <div class="columna a6"></div>
+                    <div class="columna b6 blanco"></div>
+                    <div class="columna c6"></div>
+                    <div class="columna d6 blanco"></div>
+                    <div class="columna e6"></div>
+                    <div class="columna f6 blanco"></div>
+                    <div class="columna g6"></div>
+                    <div class="columna h6 blanco"></div>
+                </div>
+                <div class="fila nro7">
+                    <div class="columna a7 blanco"></div>
+                    <div class="columna b7"></div>
+                    <div class="columna c7 blanco"></div>
+                    <div class="columna d7"></div>
+                    <div class="columna e7 blanco"></div>
+                    <div class="columna f7"></div>
+                    <div class="columna g7 blanco"></div>
+                    <div class="columna h7"></div>
+                </div>
+                <div class="fila nro8">
+                    <div class="columna a8"></div>
+                    <div class="columna b8 blanco"></div>
+                    <div class="columna c8"></div>
+                    <div class="columna d8 blanco"></div>
+                    <div class="columna e8"></div>
+                    <div class="columna f8 blanco"></div>
+                    <div class="columna g8"></div>
+                    <div class="columna h8 blanco"></div>
+                </div>
+            </div>
+            <div class="pregunta"><p> Juegan las blancas </p></div>
+            <span class="pista"> Pista: Click al rey Blanco</span>
+        </div>
+    </center>
+
+    <center>
+        <div class="cuadroTablas">
+            <div class="tablas" id="tablas">
+                <h3>Tablas</h3> 
+            </div>
+        </div>
+    </center>
+
+    <script src="chess.js"></script>
+</body>
+</html>

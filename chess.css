@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('imagen/textura.png');
+    min-width: 400px;
+}
+
+h1{
+    margin-top: 30px;
+    border-bottom: 2px solid rgba(0,0,0,.2);
+    margin-bottom: 10px;
+    width: 100%;
+    min-width: 400px;
+}
+
+.tablero{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(182, 182, 182);
+    cursor: pointer;
+    border: 5px solid rgb(155, 154, 154);
+}
+
+.titulo{
+    padding-top: 10px;
+}
+
+.titulo h2{
+    margin: 10px 0px;
+    width: 404px;
+    text-align: center;
+    font-style: italic;
+    cursor: context-menu;
+    font-size: 28px;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,.7);
+}
+
+.pregunta p{
+    width: 400px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: context-menu;
+    padding-bottom: 10px;
+}
+
+.tablero .fila{
+    width: 400px;
+    display: flex;
+}
+
+.tablero .fila .columna{
+    width: 50px;
+    height: 50px;
+}
+
+.tablero .fila .blanco{
+    background-color: white;
+}
+
+.tablero .fila .columna p{
+    font-size: 42px;
+    text-align: center;
+    user-select: none;
+}
+
+
+.cuadroTablas .tablas {
+   width: 300px;
+   padding: 40px 0px;
+   background: #EC6F66;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #F3A183, #EC6F66);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+   box-shadow: 0px 0px 10px 2px black;
+   position: absolute;
+   top: 365px;
+   left: 534px;
+   display: none;
+}
+
+.pista{
+    border: 1px solid black;
+    margin-bottom: 12px;
+    padding: 6px 6px;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0px 0px 3px 4px white;
+}
+
+.cuadroTablas .tablas h3{
+   text-align: center;
+   font-size: 30px;
+   font-style: italic;
+}
+
+.tablero .fila .styleCasilla{
+    background: rgb(61, 177, 148);
+    box-sizing: border-box;
+}
+
+.tablero .fila .movimientoReyBlanco{
+    transform: translate(50px,-50px);
+    transition: transform .3s ease;
+}
+
+.tablero .fila .movimientoReyNegro{
+    transform: translate(50px,-50px);
+    transition: transform .3s ease;
+}
+
+.tablero .fila .movimientoReyBlanco2{
+    transform: translate(100px,-50px);
+    transition: transform .3s ease;
+}
+
+.tablero .fila .movimientoReyNegro2{
+    transform: translate(50px,0px);
+    transition: transform .3s ease;    
+}
+
+.tablero .fila .movimientoReyBlanco3{
+    transform: translate(150px,-50px);
+    transition: transform .3s ease;    
+}
+
+.tablero .fila .movimientoReyNegro3{
+    transform: translate(100px,0px);
+    transition: transform .3s ease;    
+}
+
+.tablero .fila .movimientoPeonBlanco{
+    transform: translate(0px,-50px);
+    transition: transform .3s ease;  
+}
+
+.tablero .fila .movimientoReyNegro4{
+    transform: translate(50px,0px);
+    transition: transform .3s ease;    
+}
+
+.tablero .fila .movimientoPeonBlanco2{
+    transform: translate(0px,-100px);
+    transition: transform .3s ease;  
+}
+
+.tablero .fila .movimientoReyNegro5{
+    transform: translate(50px,-50px);
+    transition: transform .3s ease;    
+}
+
+.tablero .fila .movimientoReyBlanco4{
+    transform: translate(150px,-100px);
+    transition: transform .3s ease;    
+}
+
+.tablero .fila .movimientoReyNegro6{
+    transform: translate(100px,-50px);
+    transition: transform .3s ease;    
+}
+
+.tablero .fila .movimientoPeonBlanco3{
+    transform: translate(0px,-150px);
+    transition: transform .3s ease;  
+}
+
+.tablero .fila .movimientoReyNegro7{
+    transform: translate(50px,-50px);
+    transition: transform .3s ease;    
+}
+
+.tablero .fila .movimientoReyBlanco5{
+    transform: translate(100px,-100px);
+    transition: transform .3s ease;    
+}
+
